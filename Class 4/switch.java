@@ -3,10 +3,16 @@ class Calculator
 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int a, b, result=0, choice;
+		float a, b; //a<=50000, b<=50000
+		int choice;
 		System.out.println("Enter two numbers:");
-		a = sc.nextInt();
-		b = sc.nextInt();
+		a = sc.nextFloat();
+		b = sc.nextFloat();
+
+		if(a<=50000 && b<=50000)
+
+
+		{
 		System.out.println("Enter you choice");
 		System.out.println("1. Addition");
 		System.out.println("2. Subtraction");
@@ -38,20 +44,22 @@ class Calculator
 			}
 		}
 	}
-
-	static int add(int x, int y)
-	{
-		return x+y;
+	System.out.println("Inputs are not in range of 50000");
 	}
-	static int sub(int x, int y)
+
+	static float add(float x, float y)
+	{
+		return x+y; 
+	}
+	static float sub(float x, float y)
 	{
 		return x-y;
 	}
-	static int mul(int x, int y)
+	static float mul(float x, float y)
 	{
 		return x*y;
 	}
-	static int div(int x, int y)
+	static float div(float x, float y)
 	{
 		return x/y;
 	}
