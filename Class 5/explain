@@ -1,0 +1,38 @@
+
+Kelvin = 272 = -1C
+
+-358
+
+358 - 273 = 85 +"Degree in Celsius"
+
+-358 - 273 = -631
+
+total kelvin
+
+int total = 5;
+k[0] = 256; --> c[0] = k[0] - 273;
+k[1] = 787;	--> c[1] = k[1] - 273;
+k[2] = 756; --> c[2]
+k[3] = 4546; --> c[3]
+k[4] = 3535; --> c[4]
+
+
+
+
+
+filter 
+
+C > 50 
+
+
+
+html
+
+table
+		Student time table
+		
+
+
+
+
+

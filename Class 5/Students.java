@@ -20,7 +20,7 @@ import java.util.*;
 			System.out.println("Total students in class is: "+ total);
 			for(int i = 1; i<total+1; i++)
 			{		
-					System.out.print(" Name:>"+names[i]);
+					System.out.print (" Name:>"+names[i]);
 					
 			}
 			System.out.println();
