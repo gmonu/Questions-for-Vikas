@@ -1,0 +1,40 @@
+// Home Work 
+
+1 - n == A[]
+
+
+A[] > 5;
+
+
+
+
+Vowels = [A, E, I, O, U]
+
+
+
+
+char[] = sc.nextChar().charAt(0);
+
+if()
+	return Yesr it is vowel 
+
+else
+{
+	it is consonent 
+}
+
+
+
+Quotient and Remainder
+
+
+Divident & Divisor  100 , 10
+					0, 10	
+
+Remainder, Quotient
+
+a%b == remainder
+a/b == quotient 
+
+
+ LCM and HCF 
