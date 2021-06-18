@@ -13,7 +13,6 @@ class AreaOfHexagon
 		double tanvalue = Math.tan(pia);
 		System.out.println(tanvalue);
 		double result = (6 * sidesqrt)/(4*tanvalue);
-
 		System.out.println("The area of Hexagon is:"+result);
 
 
