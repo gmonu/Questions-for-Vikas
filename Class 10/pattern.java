@@ -68,3 +68,21 @@ public class Main
 	}
 }
 
+//write code for the follwing pattern
+n = 5
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+
+
+
+ n = 10
+9 7 5 3 1
+9 7 5 3 1
+9 7 5 3 1
+9 7 5 3 1
+9 7 5 3 1
+
+
