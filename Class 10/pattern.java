@@ -68,6 +68,28 @@ public class Main
 	}
 }
 
+// 1-n counting in each n line
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int row, col;
+		int n = sc.nextInt();
+        for(row = 1; row<=n; row++)
+        {
+            for(col = 1; col<=n; col++)
+            {
+                System.out.print(col+" ");
+            }
+            System.out.println();
+        }
+	}
+}
+
+
 //write code for the follwing pattern
 n = 5
 5 4 3 2 1
