@@ -1,0 +1,70 @@
+//Square Pattern
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int row, col;
+		int n = sc.nextInt();
+        for(row = 1; row<=n; row++)
+        {
+            for(col = 1; col<=n; col++)
+            {
+                System.out.print("*"+" ");
+            }
+                System.out.println();
+            
+        }
+	}
+}
+
+
+//Right Angle triangle pattern from leftside
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int row, col;
+		int n = sc.nextInt();
+        for(row = 1; row<=n; row++)
+        {
+            for(col = 1; col<=row; col++)
+            {
+                System.out.print("*"+" ");
+            }
+                System.out.println();
+            
+        }
+	}
+}
+
+
+//Right angled triangle from right side
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int row, col;
+		int n = sc.nextInt();
+        for(row = 1; row<=n; row++)
+        {
+            for(col = n-1; col>=row; col--)
+            {
+                System.out.print(" ");
+            }
+            
+            for(int k = 1; k<=row; k++)
+            {
+                System.out.print("*");
+            }
+            
+                System.out.println();
+            
+        }
+	}
+}
+
