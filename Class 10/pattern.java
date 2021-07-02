@@ -113,9 +113,30 @@ n = 10
 1 3 5 7 9 
 1 3 5 7 9 
 1 3 5 7 9 
-1 3 5 7 9 
-	
+1 3 5 7 9
+//start	
+import java.util.*;
+class Add
+{
+	public static void main(String[] args) {
+			
+	Scanner sc = new Scanner(System.in);
+		
+		int n;
+		n = sc.nextInt();
+       for (int i=1; i<=n; i++) {
+		
+		if(i%2 !=0)
+		{
+			System.out.print(i+"");
+		}
+	}
 
+
+	}
+}	
+
+//End
 n =8 
 5 10 15 20 25 30 35 40
 5 10 15 20 25 30 35 40
