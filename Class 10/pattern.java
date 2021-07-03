@@ -146,7 +146,26 @@ n =8
 5 10 15 20 25 30 35 40 
 5 10 15 20 25 30 35 40 
 5 10 15 20 25 30 35 40 	
-	
+//start
+	import java.util.*;
+ class Pattern1
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int row, col;
+        int n = sc.nextInt();
+        int p = 5;
+        for(row = 1; row<=n; row++)
+        {
+            for(col = 1; col<=n; col++)
+            {
+                System.out.print(col*p+" ");
+            }
+            System.out.println();
+        }
+    }
+}
+//End
 	
 n = 10
 2 3 5 7 
