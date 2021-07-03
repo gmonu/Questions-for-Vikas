@@ -271,7 +271,34 @@ import java.util.*;
     }
 }
 
-	
+import java.util.*;
+ class Main
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        //101 --> 132
+        int total = sc.nextInt();
+                for(int j = 1; j<=total; j++)
+                {
+                        for(char i = 65; i<65+total; i++)
+                        
+                        {
+                            System.out.print(i+" ");
+                            
+                             
+                        }
+                         for(char p= 97; p<97+total; p++)
+                        {
+                            System.out.print(p+" ");
+                            
+                             
+                        }
+                        System.out.println();
+                }
+      
+    }
+}	
 
 
 
