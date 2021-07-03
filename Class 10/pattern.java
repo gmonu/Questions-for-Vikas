@@ -126,7 +126,8 @@ class Pattern2
 9 7 5 3 1
 9 7 5 3 1
 // start
-	import java.util.*;
+
+import java.util.*;
 class Add
 {
 	public static void main(String[] args) {
@@ -145,6 +146,28 @@ class Add
 			System.out.print(i);
 		}
 
+
+	}
+}
+
+import java.util.*;
+class Main
+{
+	public static void main(String[] args) {
+			
+	Scanner sc = new Scanner(System.in);
+		
+		int a;
+		a = sc.nextInt();
+       for (int j=a; j>=1; j--)  	
+		{
+        		for (int i=a; i>=1; i--) 
+        		if(i%2 !=0)
+        		{
+        			System.out.print(i+" ");
+        		}
+            System.out.println();
+		}
 
 	}
 }
@@ -228,6 +251,25 @@ A B C D E
 A B C D E
 A B C D E
 A B C D E
+import java.util.*;
+ class Main
+{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        //101 --> 132
+        int total = sc.nextInt();
+                for(int j = 1; j<=total; j++)
+                {
+                        for(char i = 65; i<65+total; i++)
+                        {
+                            System.out.print(i+" ");
+                        }
+                        System.out.println();
+                }
+      
+    }
+}
 
 	
 
