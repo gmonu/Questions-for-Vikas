@@ -232,18 +232,7 @@ n =8
     }
 }
 //End
-	
-n = 10
-2 3 5 7 
-2 3 5 7 
-2 3 5 7 
-2 3 5 7 
-2 3 5 7 
-2 3 5 7 
-2 3 5 7 	
-2 3 5 7 
-2 3 5 7 
-2 3 5 7 
+ 
 	
 n = 5
 A B C D E
@@ -300,5 +289,46 @@ import java.util.*;
     }
 }	
 
+----------------------HomeWork------------------------------
+	
+n = 10
+2 3 5 7 
+2 3 5 7 
+2 3 5 7 
+2 3 5 7 
+2 3 5 7 
+2 3 5 7 
+2 3 5 7 	
+2 3 5 7 
+2 3 5 7 
+2 3 5 7
+	
+	
+n = 5
+factorial = 5*4*3*2*1
+	
+peterson number	
+123 = 1 + 2*1 + 3*2*1	
+
+reverse number
+1234567890
+0987654321
 
 
+Sunny Number
+n = 1
+n = n+1
+if(n is perfect square)
+	
+n = 80 
+n = 81
+if(81 is perfect square)
+	9 * 9 = 81
+means 80 is Sunny number
+
+for(int i = 1; i<=100; i++)
+	int r = i * i;
+	if(r==80)
+		Sunny number
+		break;
+	
