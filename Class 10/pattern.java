@@ -97,7 +97,26 @@ n = 5
 5 4 3 2 1
 5 4 3 2 1
 5 4 3 2 1
-
+//start 
+import java.util.*;
+class Pattern2
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int row, col;
+		int n = sc.nextInt();
+         
+        for(row = 1; row<=n; row++)
+        {
+            for(col = n; col>=1; col--)
+            {
+                System.out.print(col+" ");
+            }
+            System.out.println();
+        }
+	}
+}
+//End 	
 
 
  n = 10
@@ -106,7 +125,31 @@ n = 5
 9 7 5 3 1
 9 7 5 3 1
 9 7 5 3 1
-	
+// start
+	import java.util.*;
+class Add
+{
+	public static void main(String[] args) {
+			
+	Scanner sc = new Scanner(System.in);
+		
+		int a;
+		a = sc.nextInt();
+     /* 	-----This Is Comment------- 
+     for (int i=1; i<=a; i++) 
+     */ 
+       for (int i=a; i>=1; i--)  	
+		
+		if(i%2 !=0)
+		{
+			System.out.print(i);
+		}
+
+
+	}
+}
+
+//End 
 	
 n = 10
 1 3 5 7 9
